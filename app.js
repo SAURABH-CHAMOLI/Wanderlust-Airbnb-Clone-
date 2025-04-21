@@ -102,6 +102,10 @@ app.use("/listings",listingRouter)   // Express Router
 app.use("/listings/:id/reviews",reviewRouter)
 app.use("/",userRouter)
 
+app.get("https://wanderlust-airbnb-clone-5mgw.onrender.com/",(req,res)=>{
+    res.redirect('/listings')
+})
+
 
 app.all('*',(req,res,next)=>{
     next(new ExpressError(404,'Page Not Found!'))
