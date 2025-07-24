@@ -2,9 +2,7 @@
 
 **Wanderlust** is a comprehensive web application designed as an Airbnb clone, enabling users to list, browse, and review vacation rentals. This project highlights skills in full-stack development, focusing on secure user authentication, efficient session management, and responsive design. 
 
-**Website Link** : https://wanderlust-airbnb-clone-5mgw.onrender.com
-
-Click 'Explore' after the website is hosted successfully.
+**Website Link** : https://wanderlust-airbnb-clone-5mgw.onrender.com/
 
 #### Key Features:
 - **User Authentication and Session Management**: Implemented secure user registration and login functionality with Passport.js, leveraging MongoDB for session storage.
